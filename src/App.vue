@@ -32,7 +32,6 @@ const toggleModal = (condition) => {
   <main>
     <div v-show="showModal" class="overlay">
       <div class="modal">
-        <p style="color: black">{{ notes }}</p>
         <textarea
           v-model="newNote"
           name="note"
